@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>FREELANCE_NODE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="scanner-line"></div>
+    
+    <header class="system-header">
+        <div class="status-box">
+            <span class="blink">●</span> STATUS: OPEN_FOR_PROJECTS // LOC: FORTALEZA_CE
+        </div>
+        <nav class="nav-links">
+            <span onclick="scrollToSection('services')">[01] SERVICES</span>
+            <span onclick="openLink('portfolio')">[02] PORTFOLIO</span>
+            <span onclick="scrollToSection('contact')">[03] CONTACT</span>
+        </nav>
+    </header>
+
+    <main class="terminal-main">
+        <section class="hero-brand">
+            <h1 class="glitch" data-text="CYPHER-STORE">CYPHER-STORE</h1>
+            <p class="sub-terminal">>> Ingrid_Farias // Front-End Developer & AI Integrator</p>
+        </section>
+
+        <section class="services-grid" id="services">
+            
+            <div class="service-card highlight-gold">
+                <div class="card-tag">MOST_WANTED</div>
+                <h3 class="node-title">PROJET_LND: LANDING_PAGE</h3>
+                <p class="node-desc">Sites de alta conversão, totalmente responsivos e com estética moderna/dark.</p>
+                <div class="price-tag">VALUE: R$ 450.00+</div>
+                <button class="node-btn" onclick="contactWhatsApp('Landing Page')">SOLICITAR_ORÇAMENTO</button>
+            </div>
+
+            <div class="service-card">
+                <h3 class="node-title">PROJET_AI: DASHBOARD_INTEL</h3>
+                <p class="node-desc">Dashboards com integração de APIs (Gemini/Groq) para automação e análise.</p>
+                <div class="price-tag">VALUE: R$ 850.00+</div>
+                <button class="node-btn" onclick="openLink('gymAi')">VER_DEMO_GYMAI</button>
+            </div>
+
+            <div class="service-card">
+                <h3 class="node-title">PROJET_VIS: DIGITAL_CARD</h3>
+                <p class="node-desc">Link-tree personalizado com estilo Cyberpunk para redes sociais.</p>
+                <div class="price-tag">VALUE: R$ 150.00+</div>
+                <button class="node-btn" onclick="contactWhatsApp('Digital Card')">ENCOMENDAR</button>
+            </div>
+
+        </section>
+
+        <section class="contact-node" id="contact">
+            <div class="terminal-window">
+                <div class="window-header">COMMUNICATION_CHANNEL_STABLE</div>
+                <div class="window-body">
+                    <p>> INITIATING_CONNECTION...</p>
+                    <p>> EMAIL: <span class="link-text" onclick="openLink('email')">ingridkookfarias@gmail.com</span></p>
+                    <p>> LINKEDIN: <span class="link-text" onclick="openLink('linkedin')">in/ingridalvesfarias</span></p>
+                    <p>> GITHUB: <span class="link-text" onclick="openLink('github')">ingridalvesfarias</span></p>
+                    <p class="blink-fast">_ WAITING_FOR_INPUT...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 FREELANCE_NODE. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
